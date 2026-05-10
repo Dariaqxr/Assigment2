@@ -1,0 +1,72 @@
+/* Загальний фон (такий самий, як у попередньому завданні) */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Контейнер з ефектом напівпрозорості */
+.main-container {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Заголовок форми */
+.form-title {
+    color: #4a4a4a;
+    margin-bottom: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Базовий стиль для кнопок */
+.btn {
+    padding: 12px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px; /* Закруглені кути, як у фото */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Плавна інтерактивність */
+    color: #4a4a4a;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Кнопка "Да" — ніжно-зелена */
+.btn-yes {
+    background-color: #d4edda;
+}
+.btn-yes:hover {
+    background-color: #c3e6cb;
+    transform: translateY(-3px); /* Кнопка трохи піднімається */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Кнопка "Ні" — ніжно-червона */
+.btn-no {
+    background-color: #f8d7da;
+}
+.btn-no:hover {
+    background-color: #f5c6cb;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Кнопка "Не впевнений" — ніжно-бузкова (в тему посилання з минулого завдання) */
+.btn-unsure {
+    background-color: #e2e3e5;
+}
+.btn-unsure:hover {
+    background-color: #d6d8db;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
